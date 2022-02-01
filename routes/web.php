@@ -28,3 +28,7 @@ Route::get('/bio', function () {
 Route::get('/posts', function () {
     return '<h1>Sezione Posts</h1>';
 });
+
+Route::get('/form', function () {
+    return '<h1>Sezione Form</h1>';
+});
